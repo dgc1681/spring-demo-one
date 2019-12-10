@@ -21,4 +21,12 @@ public class TrackCoach implements Coach{
 	public String getDailyWorkout() {
 		return "Correr!!!";
 	}
+	
+	public void initTrack() {
+		System.out.println("Este es el inicio del track coach");
+	}
+	
+	public void cleanupTrack() {
+		System.out.println("Este es el fin del track coach");
+	}
 }
